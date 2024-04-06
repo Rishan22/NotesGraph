@@ -1,6 +1,6 @@
-# Obsidian GitHub README Fetcher
+# Obsidian Notes Graph
 
-This project automates building a 'knowledge base' for quick learning on any subject. Ideal for those seeking a crash course without a clear starting point, it fetches README files from GitHub repositories, reformats them for Obsidian, and visualizes the information as graph data. This facilitates the exploration of connections within a domain, offering a pathway to swiftly gain working knowledge.
+This tool automates building a knowledge base for quick learning across any subject. It fetches GitHub READMEs, adapts them for Obsidian, and creates visual graph data, enabling users to explore topic connections and swiftly gain essential knowledge.
 
 ## To-Do
 
