@@ -1,6 +1,6 @@
 # Obsidian Notes Graph
 
-This tool automates building a knowledge base for quick learning across any subject. It fetches GitHub READMEs, adapts them for Obsidian, and creates visual graph data, enabling users to explore topic connections and swiftly gain essential knowledge.
+This tool automates building a knowledge base for quick learning or creating a reference guide. It fetches GitHub READMEs, adapts them for Obsidian, enabling users to visualise a topic and related fields using Obsidian's graph view.
 
 ## To-Do
 
@@ -29,4 +29,3 @@ This tool automates building a knowledge base for quick learning across any subj
 
 ```bash
 node index.js
-node process.js
