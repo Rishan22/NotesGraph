@@ -5,9 +5,8 @@ This tool automates building a knowledge base for quick learning or creating a r
 ## To-Do
 
 - Expand to include plugins for additional websites.
-- Explore alternative data collection methods.
 - Enhance the reformatting process for Obsidian.
-- Integrate a Language Model (LLM) for analyzing notes and determining structuring methods based on use cases.
+- Integrate a LLM for data cleaning, analyzing/summarising notes.
 
 ## Features
 
