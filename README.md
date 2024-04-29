@@ -23,7 +23,7 @@ This tool automates building a knowledge base for quick learning or creating a r
 1. Clone this repository.
 2. Install dependencies with `npm install`.
 3. Create a `.env` file in the project's root, adding `GITHUB_API_KEY=your_api_key_here`.
-4. Specify the repository URL in `index.js` (`const repoUrl = "[URL]"`).
+4. List the repositories in `index.js` (`const repoUrls = "[URL,URL2,...]"`).
 5. Execute the script with the commands:
 
 ```bash
