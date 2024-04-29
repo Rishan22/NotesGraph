@@ -2,7 +2,18 @@ const fs = require('fs');
 const path = require('path');
 const { fetchRepoData } = require('./repoData');
 
-const repoUrl = "";
+
+const repoUrls = [
+   "https://github.com/repo",
+    // Add more repository URLs here
+   
+  ];
+  
+  async function processRepoUrls(urls) {
+    for (const url of urls) {
+      await generateRepoDirectory(url);
+    }
+  }
 
 async function generateRepoDirectory(url) {
     const data = await fetchRepoData(url);
@@ -110,4 +121,4 @@ function extractLinks(content) {
     return links;
 }
 
-generateRepoDirectory(repoUrl);
+processRepoUrls(repoUrls);
